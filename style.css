@@ -1,0 +1,40 @@
+.container{
+    width:100%;
+    height:100vh;
+}
+
+.cardbox{
+    max-width: 50rem;
+    max-height:20rem;
+    margin:10rem auto 0rem auto;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.card{
+    scroll-snap-align: start;
+    width:100%;
+    height:20rem;
+    background-color: red;
+    display: flex;
+}
+
+.card img{
+    width:50%;
+}
+
+.content{
+    background-color: violet;
+}
+
+.content h1{
+    width:50%;
+    margin:0 auto;
+    background-color: aliceblue;
+}
+
+.content p{
+    width:40%;
+    margin:0 auto;
+    background-color: antiquewhite;
+}
